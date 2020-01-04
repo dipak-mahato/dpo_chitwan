@@ -1,0 +1,196 @@
+html,body{
+	font-family: lohit Devenagari;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    padding-left: 0px;
+ }
+ .container-fluid{
+ 	padding-left: 0px;
+ }
+.top{
+	margin-top: 10px;
+} 
+ 
+@media screen and (max-width: 600px) {
+.table1 th,.table1 td{
+	font-size: 15px;
+}
+ 
+}
+@media screen and (min-width: 600px) {
+.table1 th,.table1 td{
+	font-size: 1.7vw;
+}
+ 
+.flag{
+	height: 7vw !important;
+}      
+.top_head{
+	font-size:large;
+} 
+}
+@media screen and (min-width: 1000px) {
+.table1 th,.table1 td{
+	font-size: 1.2vw;
+}
+.flag{
+	height: 8vw !important;
+}  
+.top_head{
+	font-size:x-large;
+} 
+}
+@media screen and (min-width: 1323px) {
+.table1 th,.table1 td{
+	font-size: 1.2vw;
+}
+.table2 td{
+	font-size: 1.4vw;
+}
+.flag{
+	height: 9vw !important;
+}
+.top_head{
+	font-size:xx-large;
+}        
+}
+ @media screen and (min-width: 2000px) {
+.table1 th,.table1 td{
+	font-size: 1.2vw;
+}
+.table2 td{
+	font-size: 1.3vw;
+}
+.flag{
+	height: 10vw !important;
+}
+.top_head{
+	font-size:50px;
+} 
+.iv_notice{
+	height: 80vw;
+}   
+}
+.middle{
+	margin-top: 50px;
+}
+.flag1{
+ position: relative;
+
+}
+
+.flag1 img{
+position: absolute;
+left: 20px;
+}
+.flag2{
+	position: relative;
+}
+.flag2 img{
+	position: absolute;
+	right: 0;
+}
+.flag3{
+	position: relative;
+}
+.flag3 img{
+	position: absolute;
+	left: 0;
+}
+.flag4{
+	position: relative;
+}
+.flag4 img{
+	position: absolute;
+	right: 0;
+}
+.top_head{
+	color: red !important;
+	font-weight: bold !important;
+ 	text-align: center !important;
+}
+.tab_head{
+	background-color: #031042 !important;
+	color:white;
+}
+ 
+ .table1 th{
+ 	border-right: 1px solid grey;
+
+ }
+ .table1 td{
+ 	border-right: 1px solid #e8eaee;
+ }
+ .iv_notice{
+ 	position: relative;
+   	height: 75vh;
+ 	padding: 0px;
+ 	margin:0px;
+ 	background-color: #e3e5f2;
+  }
+ .i_vContainer{
+   position: absolute;
+   top: 0;
+   left: 0;
+  	width: 100%;
+ 	height: 40vh;
+
+
+
+ }
+ .notice_board{
+ 	width:100%;
+ 	height: 35vh;
+  	position: absolute;
+ 	right: 0;
+ 	bottom:0;
+ 	background-color: #afbae8;
+ 	font-family: Kantipur;
+border:2px solid grey;
+padding: 5px;
+
+ }
+ .notice_board ul{
+
+height: 50px;
+overflow: auto;
+ }
+
+ video{
+ 	width: 100%;
+ 	height: auto;
+ 	border-radius: 5px;
+ 
+ }
+ .notice_board h2{
+ 	clear:both;
+ 	text-align: center;
+ 	color:white;
+ 	background-color: #031042;
+
+ }
+ .marquee a{
+text-decoration: none;
+color:white;
+font-weight:  bold;
+margin-right: 50px;
+font-size: large;
+ }
+ .marquee a span{
+ 	color: red;
+ }
+ #tab_scroll tr td{
+ 	font-family: kantipur;
+ 	 
+ }
+ .notice_section{
+ 	padding-top: 0px;
+ 	padding-left: 10px;
+
+ }
+ .newclass{
+ 	background-color: grey;
+ }
